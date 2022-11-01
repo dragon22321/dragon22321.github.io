@@ -71,6 +71,84 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-c2" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/11/01/c2/" class="article-date">
+  <time class="dt-published" datetime="2022-11-01T15:24:23.000Z" itemprop="datePublished">2022-11-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/11/01/c2/">c2</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>关于c语言中数字与字符串的比较。<br>个人理解是这样的，字符之间的比较实际上是二者所对应的ASCII码值之间的比较，因此如果直接拿数字和字符进行比较很明显是行不通的，如：我想比较一下f与整数5之间的大小，<br>那么当我采用f&gt;5时，无法比较出大小，这个式子所表示的是f和ASCII码为5的字符的比较，因此要进行二者之间的比较，有两种方法，一种是将5定义为字符，这样二者就可以直<br>接比较，第二种是，查找出5所对应的ASCII码值，从而进行比较</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/11/01/c2/" data-id="cl9ydc7hj0001yktc6jxd8yps" data-title="c2" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-sql语句" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/11/01/sql%E8%AF%AD%E5%8F%A5/" class="article-date">
+  <time class="dt-published" datetime="2022-11-01T07:41:46.000Z" itemprop="datePublished">2022-11-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/11/01/sql%E8%AF%AD%E5%8F%A5/">sql语句</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>在刷sql_labs之前首先要做的就是MySQL的学习和相关sql语句的学习，因此，这篇博客就来记录一下最近一周多时间的MySQL学习<br>首先MySQL作为数据库的一种，其中储存的数据是以表格的形式存在的，而每个表格中，又存储着对应的内容，(在网络上搜索的教程一般是以cmd终端的形式打开MySQL，而这里我用的是phpmyadmin，相对于终端来说，管理上会更加的方便，在对表格的增删查改上也更加地容易，而由于方法的不同，导致在网上的教程上所学习的内容有不同)，因此，在对MySQL有了一个初步了解之后，我又转去学习sql语句，学习了基本的搜索语句——select<em>from(表格名)where(跟条件)，意思为从一张表格中搜索全部内容。而</em>也可以改为其他列的名字。表明从这张表格中搜索相对应的数据。除此之外，sql语句也有相对应的函数，这会在后面的博客中再做一个总结。<br>在学习了一些sql语句后，我尝试地学习sql注入，也是最基础的一种就是’——型，这对在日后的sqli labs靶场中会有很大的用处，具体的内容等之后的博客会继续说明，这篇博客只是做一个初步的记录。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/11/01/sql%E8%AF%AD%E5%8F%A5/" data-id="cl9ydc7hg0000yktccjsca87z" data-title="sql语句" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-c" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/10/10/c/" class="article-date">
@@ -264,7 +342,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">October 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">September 2022</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/11/">November 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">October 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">September 2022</a></li></ul>
     </div>
   </div>
 
@@ -277,6 +355,14 @@
       <ul>
         
           <li>
+            <a href="/2022/11/01/c2/">c2</a>
+          </li>
+        
+          <li>
+            <a href="/2022/11/01/sql%E8%AF%AD%E5%8F%A5/">sql语句</a>
+          </li>
+        
+          <li>
             <a href="/2022/10/10/c/">c</a>
           </li>
         
@@ -286,10 +372,6 @@
         
           <li>
             <a href="/2022/09/20/title/">title</a>
-          </li>
-        
-          <li>
-            <a href="/2022/09/19/hello-world/">Hello World</a>
           </li>
         
       </ul>
