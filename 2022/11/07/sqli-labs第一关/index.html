@@ -4,13 +4,17 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>sqli_labs第一关 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="第一步：先判断该网站是否存在sql注入漏洞，且是整形漏洞还是字符型漏洞1、整形漏洞：输入id&#x3D;1 and 1&#x3D;1，查看页面是否存在错误，再更改输入为id&#x3D;1 and 1&#x3D;2，如果出现了sql语句的报错，及说明存在整形的漏洞。原因如下：假设sql语句为： selectfrom&lt;表名&gt;where id&#x3D;1 and 1&#x3D;1;1&amp;#x">
+<meta property="og:type" content="article">
+<meta property="og:title" content="sqli_labs第一关">
+<meta property="og:url" content="http://example.com/2022/11/07/sqli-labs%E7%AC%AC%E4%B8%80%E5%85%B3/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="第一步：先判断该网站是否存在sql注入漏洞，且是整形漏洞还是字符型漏洞1、整形漏洞：输入id&#x3D;1 and 1&#x3D;1，查看页面是否存在错误，再更改输入为id&#x3D;1 and 1&#x3D;2，如果出现了sql语句的报错，及说明存在整形的漏洞。原因如下：假设sql语句为： selectfrom&lt;表名&gt;where id&#x3D;1 and 1&#x3D;1;1&amp;#x">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-11-07T02:44:45.000Z">
+<meta property="article:modified_time" content="2022-11-07T15:18:02.595Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -69,9 +73,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-sqli-labs第一关" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-sqli-labs第一关" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/11/07/sqli-labs%E7%AC%AC%E4%B8%80%E5%85%B3/" class="article-date">
   <time class="dt-published" datetime="2022-11-07T02:44:45.000Z" itemprop="datePublished">2022-11-07</time>
@@ -84,8 +86,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/11/07/sqli-labs%E7%AC%AC%E4%B8%80%E5%85%B3/">sqli_labs第一关</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      sqli_labs第一关
     </h1>
   
 
@@ -105,264 +107,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-c2" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/11/01/c2/" class="article-date">
-  <time class="dt-published" datetime="2022-11-01T15:24:23.000Z" itemprop="datePublished">2022-11-01</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/11/01/c2/">c2</a>
-    </h1>
+    <a href="/2022/11/01/c2/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">c2</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>关于c语言中数字与字符串的比较。<br>个人理解是这样的，字符之间的比较实际上是二者所对应的ASCII码值之间的比较，因此如果直接拿数字和字符进行比较很明显是行不通的，如：我想比较一下f与整数5之间的大小，<br>那么当我采用f&gt;5时，无法比较出大小，这个式子所表示的是f和ASCII码为5的字符的比较，因此要进行二者之间的比较，有两种方法，一种是将5定义为字符，这样二者就可以直<br>接比较，第二种是，查找出5所对应的ASCII码值，从而进行比较</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/11/01/c2/" data-id="cl9ydc7hj0001yktc6jxd8yps" data-title="c2" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-sql语句" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/11/01/sql%E8%AF%AD%E5%8F%A5/" class="article-date">
-  <time class="dt-published" datetime="2022-11-01T07:41:46.000Z" itemprop="datePublished">2022-11-01</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/11/01/sql%E8%AF%AD%E5%8F%A5/">sql语句</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>在刷sql_labs之前首先要做的就是MySQL的学习和相关sql语句的学习，因此，这篇博客就来记录一下最近一周多时间的MySQL学习<br>首先MySQL作为数据库的一种，其中储存的数据是以表格的形式存在的，而每个表格中，又存储着对应的内容，(在网络上搜索的教程一般是以cmd终端的形式打开MySQL，而这里我用的是phpmyadmin，相对于终端来说，管理上会更加的方便，在对表格的增删查改上也更加地容易，而由于方法的不同，导致在网上的教程上所学习的内容有不同)，因此，在对MySQL有了一个初步了解之后，我又转去学习sql语句，学习了基本的搜索语句——select<em>from(表格名)where(跟条件)，意思为从一张表格中搜索全部内容。而</em>也可以改为其他列的名字。表明从这张表格中搜索相对应的数据。除此之外，sql语句也有相对应的函数，这会在后面的博客中再做一个总结。<br>在学习了一些sql语句后，我尝试地学习sql注入，也是最基础的一种就是’——型，这对在日后的sqli labs靶场中会有很大的用处，具体的内容等之后的博客会继续说明，这篇博客只是做一个初步的记录。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/11/01/sql%E8%AF%AD%E5%8F%A5/" data-id="cl9ydc7hg0000yktccjsca87z" data-title="sql语句" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-c" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/10/10/c/" class="article-date">
-  <time class="dt-published" datetime="2022-10-10T13:34:06.000Z" itemprop="datePublished">2022-10-10</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/10/10/c/">c</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>循环语句<br>基本结构：1，while(条件){执行命令}；<br>2，do-while句式：do{执行命令</p>
-<p>}while(条件);<br>3，不同点：do-while句式至少执行一次循环。<br>4for循环：for（a；b；c）{执行命令}；<br>对于一开始的a，当满足b时执行括号内命令，使得c。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/10/10/c/" data-id="cl92tp81a0000r0tc5nuvfbnk" data-title="c" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-php" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/09/28/php/" class="article-date">
-  <time class="dt-published" datetime="2022-09-28T08:52:05.000Z" itemprop="datePublished">2022-09-28</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/09/28/php/">php第一天</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>当解析一个文件时，PHP 会寻找起始和结束标记，也就是 <?php 和 ?>，这告诉 PHP 开始和停止解析二者之间的代码。此种解析方式使得 PHP 可以被嵌入到各种不同的文档中去，而任何起始和结束标记之外的部分都会被 PHP 解析器忽略。</p>
-<p>PHP 有一个 echo 标记简写 &lt;?&#x3D;， 它是更完整的 &lt;?php echo 的简写形式。<br>示例1</p>
-<ol>
-<li><?php echo 'if you want to serve PHP code in XHTML or XML documents,
-            use these tags'; ?></li>
-<li>You can use the short echo tag to <?= 'print this string' ?>.<br>It’s equivalent to <?php echo 'print this string' ?>.</li>
-</ol>
-<p>建议使用普通标记 (<?php ?> 和 <?= ?>) 来最大化兼容性</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/28/php/" data-id="cl8maib120000potcgflv5nzd" data-title="php第一天" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-title" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/09/20/title/" class="article-date">
-  <time class="dt-published" datetime="2022-09-20T06:35:25.000Z" itemprop="datePublished">2022-09-20</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/09/20/title/">title</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/20/title/" data-id="cl89trggt000054tc0rly64j0" data-title="title" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/09/19/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2022-09-19T13:51:44.997Z" itemprop="datePublished">2022-09-19</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/09/19/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/09/19/hello-world/" data-id="cl88twqug0000gctc5fvj9bnv" data-title="Hello World" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>
