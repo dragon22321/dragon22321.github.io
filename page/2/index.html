@@ -34,8 +34,6 @@
 
 <title>
     
-    sql语句 |
-    
     Hexo
 </title>
 
@@ -183,127 +181,106 @@
   <!-- 文章主体布局 -->
   <div class="ui container margin-top-30">
     <div class="ui grid stackable">
-      <!-- 文章列表 -->
-<div class="eleven wide column">
-  <div class="ui segment background-thin-yellow content">
-    <div class="ui segment background-thin-yellow border-background-less">
-      <div class="ui segment background-thin-yellow border-background-less">
-        <h2 class="ui center aligned icon header">sql语句</h2>
-        <div class="ui segment background-thin-yellow border-background-less">
-          <!-- 文章info -->
-          <div class="row-flex-center">
-            <h5 class="header margin-left-right-10"><i class="address user icon"></i></h5>
-            <h5 class="header margin-left-right-10"><i class="address calendar alternate outline icon"></i>2022年11月01日</h5>
-            <h5 class="header margin-left-right-10"><i class="address eye icon"></i><span id="twikoo_visitors">0</span></h5>
-            <h5 class="header margin-left-right-10"><i class="address folder open outline icon"></i>
-              
-              未分类
-              </h5>
-            <h5 class="header margin-left-right-10"><i class="address tag icon"></i>
-              
-              未设置标签
-              </h5>
+        <!-- 文章列表 -->
+<div class="eleven wide column art-list">
+  <div class="ui segment background-thin-yellow author-index-info">
+    <a class="ui background-thin-red ribbon label font-size-15">关于博主：</a>
+
+    <div class="ui grid  stackable mobile reversed">
+      <div class="eleven wide column">
+        <!-- 介绍说明 -->
+        <div class="ui piled segment  margin-top-15 border-background-less">
+          <h4 class="ui header">NothingLin的个人简介</h4>
+          <p>我是Nothinglin，目前还只是一名大三的学生，对未来充满了迷茫，不知所措。希望通过写博客的方式宣泄一下内心的迷茫。</p>
+        </div>
+      </div>
+
+      <!-- 博主头像 -->
+      <div class="five wide column">
+        <div class="ui segment border-background-less margin-top-15">
+          <div class="ui card">
+            <div class="ui slide masked reveal image padding-5">
+              <img src="/img/avatar.jpg" class="visible content">
+              <img src="https://NothingLin.coding.net/p/picture/d/picture/git/raw/master/2021/12/5/20211205010929.jpeg" class="hidden content">
+            </div>
           </div>
         </div>
-        <!-- 分割线 -->
-        <div class="ui divider title-divider"></div>
-      </div>
-      <div class="ui segment background-thin-yellow content border-background-less top-15"> <p>在刷sql_labs之前首先要做的就是MySQL的学习和相关sql语句的学习，因此，这篇博客就来记录一下最近一周多时间的MySQL学习<br>首先MySQL作为数据库的一种，其中储存的数据是以表格的形式存在的，而每个表格中，又存储着对应的内容，(在网络上搜索的教程一般是以cmd终端的形式打开MySQL，而这里我用的是phpmyadmin，相对于终端来说，管理上会更加的方便，在对表格的增删查改上也更加地容易，而由于方法的不同，导致在网上的教程上所学习的内容有不同)，因此，在对MySQL有了一个初步了解之后，我又转去学习sql语句，学习了基本的搜索语句——select<em>from(表格名)where(跟条件)，意思为从一张表格中搜索全部内容。而</em>也可以改为其他列的名字。表明从这张表格中搜索相对应的数据。除此之外，sql语句也有相对应的函数，这会在后面的博客中再做一个总结。<br>在学习了一些sql语句后，我尝试地学习sql注入，也是最基础的一种就是’——型，这对在日后的sqli labs靶场中会有很大的用处，具体的内容等之后的博客会继续说明，这篇博客只是做一个初步的记录。</p>
-</div>
-
-
-      <!-- 文章结尾处理 -->
-      <div class="ui divider title-divider"></div>
-      <div class="post-rating">
-        <p>如果喜欢这篇文章，可以给作者评个份哦~</p>
-        <!-- 评分 -->
-        
-        <!-- 文章评论功能 -->
-<div id="wpac-rating"></div>
-<script type="text/javascript">
-  wpac_init = window.wpac_init || [];
-  wpac_init.push({
-    widget: 'Rating',
-    id: 30332
-  });
-  (function() {
-    if ('WIDGETPACK_LOADED' in window) return;
-    WIDGETPACK_LOADED = true;
-    var mc = document.createElement('script');
-    mc.type = 'text/javascript';
-    mc.async = true;
-    mc.src = 'https://embed.widgetpack.com/widget.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(mc, s.nextSibling);
-  })();
-</script>
-
-        
-        <p class="extra-speaking">原文声明: "转载本站文章请注明作者和出处Nothinglin ，请勿用于任何商业用途"</p>
-        <p>公众号：苦逼的学生仔</p>
       </div>
     </div>
-  </div>
+    <!-- 分割线 -->
+    <div class="ui divider title-divider"></div>
 
-  <!-- 上一篇、下一篇 -->
-  <div class="ui segment background-thin-yellow content">
-    <div class="ui segment background-thin-yellow border-background-less page-prev-next">
-      
-      <a href="/2022/11/01/c2/" title='c2'>
-        <span class="page-prev">上一篇</span>
-      </a>
-      
-
-      
-      <a href="/2022/10/10/c/" title='c'>
-        <span class="page-next">下一篇</span>
-      </a>
-      
-
+    <!-- 文章信息 -->
+    <div class="row-flex-left">
+      <h4 class="header margin-15"><i class="address  book icon"></i>文章总数：11 篇</h4>
+      <h4 class="header margin-15"><i class="address  folder open outline icon"></i>文章分类总数：0 个</h4>
+      <h4 class="header margin-15"><i class="address  tags icon"></i>文章标签总数：0 篇</h4>
     </div>
   </div>
 
-  <!-- 文章评论功能 -->
-  <div class="ui segment background-thin-yellow content">
-    <div class="ui segment background-thin-yellow border-background-less">
-      <!-- 评论系统 -->
-      <!-- 来必力 -->
-      
-      <!-- twikoo -->
-      
-      <div id="tcomment"></div>
-<script src="https://cdn.jsdelivr.net/npm/twikoo@1.4.12/dist/twikoo.all.min.js"></script>
-<script>
-  twikoo.init({
-    envId: 'https://www.nothinglintwikoo.ml/',
-    el: '#tcomment',
-    region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数
-    path: 'window.location.pathname', // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
-    lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/dev/src/js/utils/i18n/index.js
-  })
-</script>
 
-      
+  
+  <!-- 文章列表 -->
+  <div class="ui segment background-thin-yellow stackable ">
+    <!-- 文章标题 -->
+    <div class="ui segment row-flex-left margin-padding-less border-background-less">
 
+      <h3 class="ui header margin-5">
+        <a href="/2022/09/20/title/">
+          title</a>
+          <div class="ui background-thin-red label margin-5 font-white">
+            
+            未分类
+            
+          </div>
+      </h3>
+    </div>
+    <!-- 文章内容简介 -->
+    <div class="ui grid  stackable">
+      <!-- 缩略图 -->
+      <div class="five wide column">
+        <div class="ui card margin-10">
+          <div class="image">
+            <img class="ui small image" src="/img/default.png">
+          </div>
+        </div>
+      </div>
+      <!-- 内容简介 -->
+      <div class="eleven wide column">
+        <div class="ui piled segment border-background-less intro">
+          <a href="/2022/09/20/title/">
+            <p>...</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- 分割线 -->
+    <div class="ui divider title-divider"></div>
+    <!-- 文章info -->
+    <div class="row-flex-left">
+      <h5 class="header margin-left-right-10"><i class="address user icon"></i></h5>
+      <h5 class="header margin-left-right-10"><i class="address  calendar alternate outline icon"></i>2022年09月20日</h5>
+      <h5 class="header margin-left-right-10"><i class="address  tag icon"></i>
+        
+        空
+        </h5>
     </div>
   </div>
+  
 
+  
+  <!-- 分页菜单 -->
+  <div class="ui borderless menu background-thin-yellow" role="navigation">
+    <a class="extend prev" rel="prev" href="/">上一页</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </div>
+
+  
 </div>
+
 
       <!-- 侧边栏 -->
 <div class="five wide column">
   <!-- 文章目录 -->
-  
-  <!-- 文章内容页面中的目录栏 -->
-<div class="ui segment background-thin-yellow article-toc">
-  <div class="ui segment background-title-red padding-title">
-    <h4 class="header ">文章目录：</h4>
-  </div>
-  <div class="container-toc">
-  
-  </div>
-</div>
-
   
 
   <div class="ui segment background-thin-yellow">
