@@ -34,8 +34,6 @@
 
 <title>
     
-    c |
-    
     Hexo
 </title>
 
@@ -183,128 +181,106 @@
   <!-- 文章主体布局 -->
   <div class="ui container margin-top-30">
     <div class="ui grid stackable">
-      <!-- 文章列表 -->
-<div class="eleven wide column">
-  <div class="ui segment background-thin-yellow content">
-    <div class="ui segment background-thin-yellow border-background-less">
-      <div class="ui segment background-thin-yellow border-background-less">
-        <h2 class="ui center aligned icon header">c</h2>
-        <div class="ui segment background-thin-yellow border-background-less">
-          <!-- 文章info -->
-          <div class="row-flex-center">
-            <h5 class="header margin-left-right-10"><i class="address user icon"></i></h5>
-            <h5 class="header margin-left-right-10"><i class="address calendar alternate outline icon"></i>2022年10月10日</h5>
-            <h5 class="header margin-left-right-10"><i class="address eye icon"></i><span id="twikoo_visitors">0</span></h5>
-            <h5 class="header margin-left-right-10"><i class="address folder open outline icon"></i>
-              
-              未分类
-              </h5>
-            <h5 class="header margin-left-right-10"><i class="address tag icon"></i>
-              
-              未设置标签
-              </h5>
+        <!-- 文章列表 -->
+<div class="eleven wide column art-list">
+  <div class="ui segment background-thin-yellow author-index-info">
+    <a class="ui background-thin-red ribbon label font-size-15">关于博主：</a>
+
+    <div class="ui grid  stackable mobile reversed">
+      <div class="eleven wide column">
+        <!-- 介绍说明 -->
+        <div class="ui piled segment  margin-top-15 border-background-less">
+          <h4 class="ui header">NothingLin的个人简介</h4>
+          <p>我是Nothinglin，目前还只是一名大三的学生，对未来充满了迷茫，不知所措。希望通过写博客的方式宣泄一下内心的迷茫。</p>
+        </div>
+      </div>
+
+      <!-- 博主头像 -->
+      <div class="five wide column">
+        <div class="ui segment border-background-less margin-top-15">
+          <div class="ui card">
+            <div class="ui slide masked reveal image padding-5">
+              <img src="/img/avatar.jpg" class="visible content">
+              <img src="https://NothingLin.coding.net/p/picture/d/picture/git/raw/master/2021/12/5/20211205010929.jpeg" class="hidden content">
+            </div>
           </div>
         </div>
-        <!-- 分割线 -->
-        <div class="ui divider title-divider"></div>
-      </div>
-      <div class="ui segment background-thin-yellow content border-background-less top-15"> <p>循环语句<br>基本结构：1，while(条件){执行命令}；<br>2，do-while句式：do{执行命令</p>
-<p>}while(条件);<br>3，不同点：do-while句式至少执行一次循环。<br>4for循环：for（a；b；c）{执行命令}；<br>对于一开始的a，当满足b时执行括号内命令，使得c。</p>
-</div>
-
-
-      <!-- 文章结尾处理 -->
-      <div class="ui divider title-divider"></div>
-      <div class="post-rating">
-        <p>如果喜欢这篇文章，可以给作者评个份哦~</p>
-        <!-- 评分 -->
-        
-        <!-- 文章评论功能 -->
-<div id="wpac-rating"></div>
-<script type="text/javascript">
-  wpac_init = window.wpac_init || [];
-  wpac_init.push({
-    widget: 'Rating',
-    id: 30332
-  });
-  (function() {
-    if ('WIDGETPACK_LOADED' in window) return;
-    WIDGETPACK_LOADED = true;
-    var mc = document.createElement('script');
-    mc.type = 'text/javascript';
-    mc.async = true;
-    mc.src = 'https://embed.widgetpack.com/widget.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(mc, s.nextSibling);
-  })();
-</script>
-
-        
-        <p class="extra-speaking">原文声明: "转载本站文章请注明作者和出处Nothinglin ，请勿用于任何商业用途"</p>
-        <p>公众号：苦逼的学生仔</p>
       </div>
     </div>
-  </div>
+    <!-- 分割线 -->
+    <div class="ui divider title-divider"></div>
 
-  <!-- 上一篇、下一篇 -->
-  <div class="ui segment background-thin-yellow content">
-    <div class="ui segment background-thin-yellow border-background-less page-prev-next">
-      
-      <a href="/2022/11/01/sql%E8%AF%AD%E5%8F%A5/" title='sql语句'>
-        <span class="page-prev">上一篇</span>
-      </a>
-      
-
-      
-      <a href="/2022/09/28/php/" title='php第一天'>
-        <span class="page-next">下一篇</span>
-      </a>
-      
-
+    <!-- 文章信息 -->
+    <div class="row-flex-left">
+      <h4 class="header margin-15"><i class="address  book icon"></i>文章总数：31 篇</h4>
+      <h4 class="header margin-15"><i class="address  folder open outline icon"></i>文章分类总数：0 个</h4>
+      <h4 class="header margin-15"><i class="address  tags icon"></i>文章标签总数：0 篇</h4>
     </div>
   </div>
 
-  <!-- 文章评论功能 -->
-  <div class="ui segment background-thin-yellow content">
-    <div class="ui segment background-thin-yellow border-background-less">
-      <!-- 评论系统 -->
-      <!-- 来必力 -->
-      
-      <!-- twikoo -->
-      
-      <div id="tcomment"></div>
-<script src="https://cdn.jsdelivr.net/npm/twikoo@1.4.12/dist/twikoo.all.min.js"></script>
-<script>
-  twikoo.init({
-    envId: 'https://www.nothinglintwikoo.ml/',
-    el: '#tcomment',
-    region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数
-    path: 'window.location.pathname', // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
-    lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/imaegoo/twikoo/blob/dev/src/js/utils/i18n/index.js
-  })
-</script>
 
-      
+  
+  <!-- 文章列表 -->
+  <div class="ui segment background-thin-yellow stackable ">
+    <!-- 文章标题 -->
+    <div class="ui segment row-flex-left margin-padding-less border-background-less">
 
+      <h3 class="ui header margin-5">
+        <a href="/2022/09/20/title/">
+          title</a>
+          <div class="ui background-thin-red label margin-5 font-white">
+            
+            未分类
+            
+          </div>
+      </h3>
+    </div>
+    <!-- 文章内容简介 -->
+    <div class="ui grid  stackable">
+      <!-- 缩略图 -->
+      <div class="five wide column">
+        <div class="ui card margin-10">
+          <div class="image">
+            <img class="ui small image" src="/img/default.png">
+          </div>
+        </div>
+      </div>
+      <!-- 内容简介 -->
+      <div class="eleven wide column">
+        <div class="ui piled segment border-background-less intro">
+          <a href="/2022/09/20/title/">
+            <p>...</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- 分割线 -->
+    <div class="ui divider title-divider"></div>
+    <!-- 文章info -->
+    <div class="row-flex-left">
+      <h5 class="header margin-left-right-10"><i class="address user icon"></i></h5>
+      <h5 class="header margin-left-right-10"><i class="address  calendar alternate outline icon"></i>2022年09月20日</h5>
+      <h5 class="header margin-left-right-10"><i class="address  tag icon"></i>
+        
+        空
+        </h5>
     </div>
   </div>
+  
 
+  
+  <!-- 分页菜单 -->
+  <div class="ui borderless menu background-thin-yellow" role="navigation">
+    <a class="extend prev" rel="prev" href="/page/3/">上一页</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span>
+  </div>
+
+  
 </div>
+
 
       <!-- 侧边栏 -->
 <div class="five wide column">
   <!-- 文章目录 -->
-  
-  <!-- 文章内容页面中的目录栏 -->
-<div class="ui segment background-thin-yellow article-toc">
-  <div class="ui segment background-title-red padding-title">
-    <h4 class="header ">文章目录：</h4>
-  </div>
-  <div class="container-toc">
-  
-  </div>
-</div>
-
   
 
   <div class="ui segment background-thin-yellow">
