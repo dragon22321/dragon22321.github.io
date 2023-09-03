@@ -1,0 +1,10 @@
+.pager {
+  width: 50%;
+  margin: auto;
+}
+.pager .prev {
+  float: left;
+}
+.pager .next {
+  float: right;
+}
