@@ -1,216 +1,196 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Hexo</title><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/page/2/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/page/2/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Hexo',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-03-06 14:39:11'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
 
-<!DOCTYPE HTML>
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
 
-<html lang="en">
-	
-	
-	<head>
-		
-		<meta charset="utf-8">
-		<meta name="X-UA-Compatible" content="IE=edge">
-		<title>Hexo</title>
-		<meta name="description" content="">
-		<meta lang="en">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="/icon.png">
-		<link rel="stylesheet" type="text/css" href="/css/flavor.css">
-		
-	<meta name="generator" content="Hexo 6.3.0"></head>
-	
-	
-	<body>
-	
-<div class="page_header">
-	<div class="left">
-		
-		<a class="site_icon_link" href="http://example.com"><img class="site_icon" alt="SiteIcon" src="/icon.png" /></a>
-		<div class="site_name">
-			
-			<div class="title"><span class="text">Hexo</span></div>
-			<div class="subtitle"><span class="text"></span></div>
-			
-		</div>
-		
-	</div>
-
-	<div class="right">
-		
-		<div class="links">
-			
-			
-			
-		</div>
-		
-	</div>
-</div>
-
-
-
-<div class="post post_list_container">
-	<div class="post post_list post_list_index">
-	
-	
-	
-		<div class="post post_item post_item_index">
-			
-			<h2 class="title_h2"><a class="title_link" href="/2023/02/03/hgame-week2-week3/">hgame-week2-week3</a></h2>
-			
-			<span class="post post_info">	2023-02-03		 All 751414 characters	</span>
-
-			
-			<p class="excerpt">由于这两周能够理解的题目比较少，于是就干脆放在一起了
-
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdoAAAD7CAYAAADNY1WIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAADLMSURBVHhe7d0NnBXlfS/wH0sAAWHZBV</p>
-			
-		</div>
-	
-		<div class="post post_item post_item_index">
-			
-			<h2 class="title_h2"><a class="title_link" href="/2023/01/08/hgame%EF%BC%88week1%EF%BC%89/">hgame（week1）</a></h2>
-			
-			<span class="post post_info">	2023-01-08		 All 1901655 characters	</span>
-
-			
-			<p class="excerpt">hgame的week1第一波放题，主要做了五道题，web的四道题目和crypto的一道题目。
-
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmEAAADFCAYAAAAc5yWaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAGDrSURBVHhe7b</p>
-			
-		</div>
-	
-		<div class="post post_item post_item_index">
-			
-			<h2 class="title_h2"><a class="title_link" href="/2023/01/02/%E9%A2%98%E7%9B%AE2/">题目2</a></h2>
-			
-			<span class="post post_info">	2023-01-02		 All 146762 characters	</span>
-
-			
-			<p class="excerpt">[SWPUCTF 2021 新生赛]hardrce
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA5sAAAJDCAYAAACFcQDmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAEz1SURBVHhe7d0NrDbZfRD2uXZIcAi0TVLR</p>
-			
-		</div>
-	
-		<div class="post post_item post_item_index">
-			
-			<h2 class="title_h2"><a class="title_link" href="/2023/01/01/%E9%A2%98%E7%9B%AE/">题目</a></h2>
-			
-			<span class="post post_info">	2023-01-01		 All 565681 characters	</span>
-
-			
-			<p class="excerpt">不多说，直接上题目，总结一下最近做的一些题目。![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAuoAAACuCAYAAABgMSj1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAADMBSURBVHhe7d0LnB5Vff/x316zmzsJCEoSaiI</p>
-			
-		</div>
-	
-		<div class="post post_item post_item_index">
-			
-			<h2 class="title_h2"><a class="title_link" href="/2022/12/21/upload-labs%E7%99%BD%E5%90%8D%E5%8D%95/">upload-labs白名单</a></h2>
-			
-			<span class="post post_info">	2022-12-21		 All 777153 characters	</span>
-
-			
-			<p class="excerpt">解决完前面的黑名单，现在我们开始转入文件上传白名单的问题解决了。
-在之前我们了解到，相对于黑名单，白名单的绕过难度更大，因此接下来我们就来解决。
-
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">37</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Hexo"><span class="site-name">Hexo</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Hexo</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/02/03/hgame-week2-week3/" title="hgame-week2-week3">hgame-week2-week3</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-02-03T14:15:02.000Z" title="Created 2023-02-03 22:15:02">2023-02-03</time></span></div><div class="content">由于这两周能够理解的题目比较少，于是就干脆放在一起了
+首先是一道git泄露的题目，题目提示的很明显，我们也是直接来验证是否存在git泄露，这里我们可以看出，确实是存在一个git泄露的。因此，接下来我们就借助githack，由于我是在kali上安装的，所以先输入cd githack，打开文件夹，接着输入python2 GitHack.py https:&#x2F;&#x2F; week-2.hgame.lwsec.cn:32225 .git&#x2F;，可以看到，git备份文件就已经被我们载下来了，接着打开对应网址就可以发现flag
+第二题
+这道题的难度不是非常大，还是根据题目的提示，v2board泄露是之前一段时间的一次比较大的漏洞，他的产生就是由于网站对用户的一个身份没有做到很好的排查，导致用户端可以登入管理员的接口，这是我查找对应的资料才知道的，于是，我们的思路就比较明显，先注册一个账号，然后根据漏洞原理，我们直接在这个页面访问管理员的接口，之后就直接进入管理员的界面，得到flag。
+第三题和第四题
+这道题首先先要对界面进行一个爆破，不过弱口令爆破比较简单，因此很容易的得到密码是a ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/01/08/hgame%EF%BC%88week1%EF%BC%89/" title="hgame（week1）">hgame（week1）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-01-08T12:34:24.000Z" title="Created 2023-01-08 20:34:24">2023-01-08</time></span></div><div class="content">hgame的week1第一波放题，主要做了五道题，web的四道题目和crypto的一道题目。
+这道题题目提示了是一个前端的游戏，联想到游戏类题目，上次在catctf里面也有遇到一题，虽然那题是可以从源码里面获得答案的，但是也有大佬选择修改数据，于是我也学习了一下如何在前端修改数据。很经典的一个小游戏，魔塔，这里可以看到，我们的基础属性是非常低的，什么都没有，因此我们这里直接查看前端的代码我们这里直接找到游戏的源码，并且找到了这个游戏角色相对应的属性。因此下一步就是如何修改了。首先，先对这个游戏进行一个暂停在暂停之后，我们将这些数据复制到控制台上之后就可以随心所欲地修改数据啦，修改完之后一个回车，再继续游戏，就可以体验砍瓜切菜的快乐啦（一定要记得拿道具）。
+第二题
+这道题很明确是靠查我们http的知识，在进去之后看到的是这个页面讲真的，这个提示让我一开始觉得这是一道涉及伪造cookie的题目，但是当我发现cookie不是简单的base64加密之后我便不知道该如何下手了，不过既然题目很明确是考察http的知识，所以我就把头部的参数都试了过去，最后发现实在user-agent里面修改，（讲真 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/01/02/%E9%A2%98%E7%9B%AE2/" title="题目2">题目2</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-01-02T12:07:27.000Z" title="Created 2023-01-02 20:07:27">2023-01-02</time></span></div><div class="content">[SWPUCTF 2021 新生赛]hardrce代码审计题，这里可以看到先是列了一个黑名单，然后进行一个匹配，并且还要求不能带字母，接着还有一个eval函数。看到eval函数，我们很自然的要联想到，php中对系统函数的使用，也就是system函数，但是，由于不能用字母，于是我一开始就可以想到用url十六进制码进行一个绕过，但是后来我发现，由于还是存在字母，于是这种绕过不可行。因此，我上网搜查了一些可以绕过的资料，参考这篇文章https://blog.csdn.net/miuzzx/article/details/109143413我们采用取反的新式，来构造一个payload，之后也是一样的，用取反的新式构造system(“cat &#x2F;f*”)的payload，最后得到flag
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/01/01/%E9%A2%98%E7%9B%AE/" title="题目">题目</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-01-01T11:32:36.000Z" title="Created 2023-01-01 19:32:36">2023-01-01</time></span></div><div class="content">不多说，直接上题目，总结一下最近做的一些题目。题目描述很简单，进去点击就是这样的一个页面，但是我们可以观察url，可以猜测，后端应该有一个语句是关于文件包含的，因此想到文件包含，我们就应该要联想到php伪协议绕过这里我们采用php:&#x2F;&#x2F;fillter的过滤协议，直接过滤出base64的代码，最后进行一个解码。就可以得到flag。
+第二题
+简单的一个代码审计，以get方式从url中获取一个语句，之后用eval语句执行获得的语句，想到这里，我们可以想到用系统函数来执行，也就是system（）函数这里分享一下常用的一些系统函数https://blog.csdn.net/qq_41617034&#x2F;article&#x2F;details&#x2F;115583211?ops_request_misc&#x3D;%257B%2522request%255Fid%2522%253A%2522167230661316800184128280%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%252 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/12/21/upload-labs%E7%99%BD%E5%90%8D%E5%8D%95/" title="upload-labs白名单">upload-labs白名单</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-21T12:35:29.000Z" title="Created 2022-12-21 20:35:29">2022-12-21</time></span></div><div class="content">解决完前面的黑名单，现在我们开始转入文件上传白名单的问题解决了。在之前我们了解到，相对于黑名单，白名单的绕过难度更大，因此接下来我们就来解决。
 第十二关
-
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA/MAAAH6CAYAAABLbBxCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcw</p>
-			
-		</div>
-	
-		<div class="post post_item post_item_index">
-			
-			<h2 class="title_h2"><a class="title_link" href="/2022/12/16/upload-labs/">upload-labs</a></h2>
-			
-			<span class="post post_info">	2022-12-16		 All 634896 characters	</span>
-
-			
-			<p class="excerpt">第五关
-
-解决这关，需要我们先了解一些知识，有关于php配置文件的知识。![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA1IAAADNCAYAAACy/kEMAAAgAElEQVR4AezBT2hcd5rw+290vbjQbojsQ1s1OE1NGOQ/UB2TPO5Lhdf0/TVGU5sTSFwb9cIZLVwilYhaiHR2U1R2iR</p>
-			
-		</div>
-	
-		<div class="post post_item post_item_index">
-			
-			<h2 class="title_h2"><a class="title_link" href="/2022/12/05/upload-labs1-4/">upload-labs</a></h2>
-			
-			<span class="post post_info">	2022-12-05		 All 614663 characters	</span>
-
-			
-			<p class="excerpt">在这个靶场，我将学习有关文件上传的一些漏洞知识。
-
+先看源码，来解释一下源码，首先先定义了一个数组，包含了一些文件的常见后缀，之后开始截取后缀，这里说明一下substr和strrpos这两个函数，substr的使用方法一般是substr（字符串，数字），数字可以取正负，代表从头或者从尾部，意思就是从头或从尾部截取对应个数的字符串。而strrpos则是strrpos（字符串1，字符串2），先找寻字符串2在字符串1中最后出现的位置，之后返回一个数字，表示在第几位，这就解释了为什么这串代码能够截取后缀。
+截取完后缀之后用in_array函数进行排查，如果符合要求，，就用get的方式上传保存。因此，这里的绕过方法就呼之欲出了，我们利用bp抓包，将shell.php改成shell.php%00shell.jpg
+这里我们首先可以绕过审查，之后由于有%00的存在，我们就可以将%00后面的字符串去除。这是因为，%00在经过get传输之后会被解码变成十六进制的0x00，而0x00相当于我们c语言中的\ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/12/16/upload-labs/" title="upload-labs">upload-labs</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-16T10:46:56.000Z" title="Created 2022-12-16 18:46:56">2022-12-16</time></span></div><div class="content">第五关
+解决这关，需要我们先了解一些知识，有关于php配置文件的知识。php的配置类型主要包括上面这四个，而假如我们想要修改他们，那我们就可以通过配置文件来修改，最直接的就是php.ini,这个就是php的配置文件，而假如php.ini被禁止修改，那么我们还可以通过上面介绍的一些配置文件来修改。就比如我们之前用到的.htaccess还有我们今天要介绍的.user.ini，.user.ini也可以更改PHP_INI_PERDIR的内容，上面的表格并没有体现。那么这题在禁用了.htaccess的条件下的解法就很明显了，就是利用.user.ini。
+因此，和之前一样，我们新加入一个文件.user.ini，在这个文件中输入。而我也发现，稍微敏感的配置项，都被设置成了PHP_INI_SYSTEM的模式，也有一些，是被设置成了只有用php.ini才能修改的。因此，在PHP_INI_SYSTEM的模式中会更加安全。我们这题要用到的配置项，是auto_append_file，用法也很简单，我们直接输入auto_append_file&#x3D;123.jpg。
+那么执行的php文件就会自动包含这个文件 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/12/05/upload-labs1-4/" title="upload-labs">upload-labs</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-05T08:02:10.000Z" title="Created 2022-12-05 16:02:10">2022-12-05</time></span></div><div class="content">在这个靶场，我将学习有关文件上传的一些漏洞知识。
 虽然在之前做一些题目的时候有或多或少地接触过文件上传的漏洞，但是理解的还不是很深刻，之前在代码审计中也有参杂着文件包含，也有用到php伪协议，但都不是很系统，因此想利用这个靶场好好地再复习巩固一下。
-
 先看第一关
-
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAasAAAEeCAYAAAA0</p>
-			
-		</div>
-	
-		<div class="post post_item post_item_index">
-			
-			<h2 class="title_h2"><a class="title_link" href="/2022/12/03/sqlilabs-42-53/">sqlilabs-42</a></h2>
-			
-			<span class="post post_info">	2022-12-03		 All 403544 characters	</span>
-
-			
-			<p class="excerpt">![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEYAAAGkCAYAAAA8DCA7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAP+lSURBVHhe7P0HtG9ZftcH/v45h/u/+b5Yr1JX526EWhKSGkmAhADbEkE2UQ</p>
-			
-		</div>
-	
-		<div class="post post_item post_item_index">
-			
-			<h2 class="title_h2"><a class="title_link" href="/2022/12/02/sqlilabs38-41/">sqlilabs38</a></h2>
-			
-			<span class="post post_info">	2022-12-02		 All 476893 characters	</span>
-
-			
-			<p class="excerpt">![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABNoAAAExCAYAAACqMM+sAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAP+lSURBVHhe7P0JmGVZdd+J7rhxx5jHjJxrYihmS1BoQmiwhIywBbIb6RPSaz</p>
-			
-		</div>
-	
-		<div class="post post_item post_item_index">
-			
-			<h2 class="title_h2"><a class="title_link" href="/2022/12/01/sqlilab34-37/"></a></h2>
-			
-			<span class="post post_info">	2022-12-01		 All 1113845 characters	</span>
-
-			
-			<p class="excerpt">![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABMkAAAK7CAYAAADoathkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAP+lSURBVHhe7P0JuGbXWd+Jvt/8nXmqc2o8VapBo2XLsiVjwHYAYyW2SezQQI</p>
-			
-		</div>
-	
-	
-	
-</div>
-</div>
-
-
-
-<div class="pager pager_index">
-	
-	
-	
-	
-		
-		<a class="next" href="page/3/">Next &gt;
-		
-	
-	
-	
-</div>
-
-<div class="page_footer">
-	
-	<span class="copyright">2023 <a href="http://example.com">John Doe</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/xtexChooser/hexo-theme-flavor" target="_blank">Flavor Theme</a>.</span><br/>
-	
-	
-	<span class="license">Articles in this blog without special declared, all used <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a></span>
-	
-</div>
-	
-	</body>
-	
-	
-</html>
-
-
+上传一个webshell，也可以理解为网站后门。因此我试着上传一个一句话木马，但是我发现了这个问题因此我这里猜测，这个靶场用了白名单过滤了除这些后缀以外的文件，由于是第一次学习，因此我打开了提示，提示这被js过滤，因此我尝试关掉js这样我们就成功地上传了一句话木马。
+当然还有一种做法，就是利用bp这个工具，对上传的文件进行后缀修改，可以看到，这里我们将后缀从php改为了jpg，也就是图片格式。使其符合条件，然后我们进行上传这里看到filename，也就是我们的文件名，我们将后缀jpg改回php，这样就成功绕过了，注意一下下面的content-type，这个表示的是文件类型，我上传的是图片，因此他显示的是图片类型，这个知识点后续有用。
+上传成功后我们就用蚂蚁剑链接
+由于想复习一下文件穿梭，因此我采用了..&#x2F;表示上级目录的 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/12/03/sqlilabs-42-53/" title="sqlilabs-42">sqlilabs-42</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-03T01:53:00.000Z" title="Created 2022-12-03 09:53:00">2022-12-03</time></span></div><div class="content">看到这题，我们第一反应是之前的二次注入，利用数据库的漏洞来注入。但是这里我们发现，这题无法使用二次注入。因此我们继续查看原码这里可以看到两个关键函数，一个是我们之前看到的数据库防御函数，另一个就是可以执行多个sql语句的函数。
+因此，我们就可以很容易的知道，这题的注入点在password这里。而我们知道，，sql语句是可以增删查改的，因此，我们可以试着去改变一个用户名的密码。
+这里，我们选择更改admin的密码，因此我们在password这里输入1’ ; update users set password&#x3D;123123 where username&#x3D;’admin’ –可以看到，admin的密码已经被我们修改。因此我们就可以通过这种办法，直接登入。
+在后面几关的操作就和这个基本一样，只不过是闭合的问题，还有几题有用上盲注，还有报错注入，不过基本类似。
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/12/02/sqlilabs38-41/" title="sqlilabs38">sqlilabs38</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-02T05:02:41.000Z" title="Created 2022-12-02 13:02:41">2022-12-02</time></span></div><div class="content">这道题我们可以发现，好像用之前的联合注入可以成功的注入，但是我们想一想，已经到了38关，考点还会是那个吗？显然不大可能，因此我们查看一下原代码
+这里面注意一下我画出来的函数，经过搜索，我们可以发现，这个函数的作用是可以一次写入多个sql语句，但是sql语句中间要用；来间隔。
+我们知道，sql语句分为四大类，增删查改，select是属于我们的查找语句，因此如果有了这个函数，那么我们就可以通过注入来执行一些其他的命令，比如说删除，因此，这个函数也是非常危险的，如果我们以后碰上了这个函数，一定一定不要乱删数据。
+那在知道了这个原理之后，我们就尝试地来增加一些新的数据。
+1’;insert into users(id,username,password)values(‘100’,’23’,’343’) –+
+可以看到，我们的数据库的users表中，就加上了一条新的数据。当然我们也可以进行语句的一个删除，这里就不多加介绍。
+第39关
+查看源码，这题和上一题一样都有一个关键函数与上一题唯一的不同只是闭合的问题。至于后面的几题也都是一样的，只不过是闭合的问题。
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/12/01/sqlilab34-37/" title="Untitled">Untitled</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-12-01T08:03:05.047Z" title="Created 2022-12-01 16:03:05">2022-12-01</time></span></div><div class="content">
+看到这道题，我们可以发现和之前是一样的套路，也是把’转义掉，但是我们这题不是get传参，所以无法通过输入%df来将其过滤。而输入df也是无法的，因为通过编码后的值并不为df，既然如此，我们可以利用另一种办法，也就是抓包。这里就要用到我们的bp了。
+第一步
+在我们的’前输入任意一个值，这个值在经过编码之后会变为一个数值，这里我们在bp里是可以看到的这个61，就是我们的a经过编码之后的值，但是注意，这个a是username里面的a，我们输入的a在后面，因此，我们对后面那个a进行修改，改成df，这样我们的’就被释放出来了。之后的操作就和之前一样了。
+第35关
+这题有一点坑，但是知识点和之前是一样的，我也是在看了原码之后才知道，原来这题不属于字符串注入，而是数字型，因此，我们输入’肯定会报错，这题的坑人之处就在于他也会提示你&#39;，让你以为是’被过滤后产生的报错。
+第36关
+这题的考点和之前的一样，在源码中我们看到了熟悉的mysql_real_string()函数，这个就是数据库的一个防御函数，也就是能够对我们的’进行过滤，因此，我们还是按照之前的方法将他绕过。
+第37关这道题和之前一样 ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/#content-inner">3</a><a class="page-number" href="/page/4/#content-inner">4</a><a class="extend next" rel="next" href="/page/3/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">John Doe</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">37</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/30/DC-1%E5%88%9D%E6%8E%A2%E6%B8%97%E9%80%8F/" title="DC-1初探渗透">DC-1初探渗透</a><time datetime="2023-07-30T08:13:58.000Z" title="Created 2023-07-30 16:13:58">2023-07-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/29/%E9%A2%98%E7%9B%AE4/" title="题目4">题目4</a><time datetime="2023-07-29T10:49:31.000Z" title="Created 2023-07-29 18:49:31">2023-07-29</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/04/02/php%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%962/" title="php反序列化2">php反序列化2</a><time datetime="2023-04-02T02:46:28.000Z" title="Created 2023-04-02 10:46:28">2023-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/30/%E5%8E%9F%E5%9E%8B%E9%93%BE%E6%B1%A1%E6%9F%93%EF%BC%88%E5%88%9D%E7%BA%A7%EF%BC%89/" title="原型链污染（初级）">原型链污染（初级）</a><time datetime="2023-03-30T10:11:22.000Z" title="Created 2023-03-30 18:11:22">2023-03-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/14/%E9%A2%98%E7%9B%AE3/" title="题目3">题目3</a><time datetime="2023-03-14T07:09:10.000Z" title="Created 2023-03-14 15:09:10">2023-03-14</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span><a class="card-more-btn" href="/archives/" title="View More">
+    <i class="fas fa-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">July 2023</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">April 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span class="card-archive-list-date">March 2023</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/02/"><span class="card-archive-list-date">February 2023</span><span class="card-archive-list-count">5</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/01/"><span class="card-archive-list-date">January 2023</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">December 2022</span><span class="card-archive-list-count">7</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">November 2022</span><span class="card-archive-list-count">13</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/10/"><span class="card-archive-list-date">October 2022</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">37</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-03-06T06:39:09.878Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By John Doe</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
